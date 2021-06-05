@@ -20,9 +20,5 @@ router.post('/notes', (req, res) => {
     }
 })
 
-router.get('/notes/:id', (req, res) => {
-    res.json(storage)
-})
-
 module.exports = router
 
